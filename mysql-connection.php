@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect('localhost', 'root', 'sprspr123');
+$link = mysqli_connect('localhost', 'username', 'passwrord');
 if (!$link) {
  die('Could not connect: ' . mysql_error());
 }
