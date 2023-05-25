@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect('localhost', $MYSQL_USERNAME, $MYSQL_PASSWORD );
+$link = mysqli_connect('localhost', getenv("MYSQL_USERNAME"), getenv("MYSQL_PASSWORD") );
 if (!$link) {
  die('Could not connect: ' . mysql_error());
 }
